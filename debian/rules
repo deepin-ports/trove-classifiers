@@ -9,5 +9,9 @@ export DEB_VERSION_UPSTREAM
 
 export PYBUILD_NAME=trove-classifiers
 
+ifeq ($(PYBUILD_AUTOPKGTEST),)
+export PYBUILD_TEST_ARGS := --deselect tests/test_cli.py
+endif
+
 %:
 	dh $@ --buildsystem=pybuild

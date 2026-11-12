@@ -1,3 +1,109 @@
+trove-classifiers (2026.9.21.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 27 Sep 2026 12:53:36 +0100
+
+trove-classifiers (2026.6.1.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * [9b7aae3] d/watch: Convert to version 5
+  * [a38176a] New upstream version 2026.6.1.19
+  * [40fa34c] d/control: Bump debhelper-compat to version 14
+  * [ddb86e4] d/control: Drop field Priority: optional
+  * [6ef951e] d/control: Update Standards-Version to 4.7.4
+    No further modifications needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 06 Sep 2026 16:30:22 +0200
+
+trove-classifiers (2026.1.14.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 11 Mar 2026 21:11:13 +0000
+
+trove-classifiers (2025.11.14.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Drop "Rules-Requires-Root: no", default as of dpkg-dev 1.22.13.
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 26 Nov 2025 12:28:56 +0000
+
+trove-classifiers (2025.9.11.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Mark python3-trove-classifiers Multi-Arch: foreign.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 30 Sep 2025 11:41:21 +0100
+
+trove-classifiers (2025.9.8.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Standards-Version: 4.7.2.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 08 Sep 2025 16:19:37 +0100
+
+trove-classifiers (2025.4.28.22-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 01 May 2025 13:43:53 +0100
+
+trove-classifiers (2025.4.11.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 22 Apr 2025 16:02:11 +0100
+
+trove-classifiers (2025.3.19.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 23 Mar 2025 20:16:25 +0000
+
+trove-classifiers (2025.2.18.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 24 Feb 2025 18:17:46 +0000
+
+trove-classifiers (2025.1.15.22-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 06 Feb 2025 17:09:22 +0000
+
+trove-classifiers (2024.9.12-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Carsten Schoenert ]
+  * d/watch: Move to Git mode on GitHub
+
+  [ Timo Röhling ]
+  * New upstream version 2024.9.12
+  * Remove obsolete autopkgtest 'smoke'
+
+ -- Timo Röhling <roehling@debian.org>  Sat, 28 Sep 2024 16:01:33 +0200
+
+trove-classifiers (2024.4.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 2024.4.10
+  * d/control: Bump Standards-Version to 4.7.0
+
+ -- Kalyani Kenekar <kalyaniknkr@gmail.com>  Sun, 23 Jun 2024 14:47:13 +0530
+
 trove-classifiers (2024.1.31-1) unstable; urgency=medium
 
   * Team upload.

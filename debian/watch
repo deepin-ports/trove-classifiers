@@ -1,7 +1,9 @@
-version=4
+Version: 5
 
-# PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig.
-#opts="pgpsigurlmangle=s%$%.sig%"
-
-# PyPI.
-https://pypi.debian.net/trove-classifiers/trove-classifiers-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+Template: Github
+Project: trove-classifiers
+Owner: pypa
+Dversion-Mangle: auto
+Uversion-Mangle: auto
+Compression: gz
+Pgpmode: none

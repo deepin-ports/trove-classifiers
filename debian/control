@@ -1,18 +1,16 @@
 Source: trove-classifiers
 Section: python
-Priority: optional
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders:
  Gudjon I. Gudjonsson <gudjon@gudjon.org>
-Rules-Requires-Root: no
 Build-Depends:
- debhelper-compat (= 13),
+ debhelper-compat (= 14),
  dh-sequence-python3,
  python3-setuptools,
  python3-all,
  pybuild-plugin-pyproject,
  python3-pytest <!nocheck>,
-Standards-Version: 4.6.2
+Standards-Version: 4.7.4
 Homepage: https://github.com/pypa/trove-classifiers
 Vcs-Browser: https://salsa.debian.org/python-team/packages/trove-classifiers
 Vcs-Git: https://salsa.debian.org/python-team/packages/trove-classifiers.git
@@ -20,6 +18,7 @@ Testsuite: autopkgtest-pkg-pybuild
 
 Package: python3-trove-classifiers
 Architecture: all
+Multi-Arch: foreign
 Depends:
  ${python3:Depends},
  ${misc:Depends},
